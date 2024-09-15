@@ -1,0 +1,61 @@
+body {
+    background-image: url('pexels-olly-3771074.jpg');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+h2 a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    min-width: 150px;
+    height: 40px;
+}
+
+h2 a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+h2 a:active {
+    background-color: #004494;
+}
+
+input[type="submit"] {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: #fff; 
+    background-color: #007BFF;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
